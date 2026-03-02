@@ -13,7 +13,7 @@ function AddTask() {
       <input
         value={subject}
         onChange={(e) => setSubject(e.target.value)}
-        placeholder="Enter subject"
+        placeholder="Enter subjects"
       />
       <button>Add</button>
     </form>
