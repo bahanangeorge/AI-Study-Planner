@@ -23,3 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 env
+
+# secrets and environment files
+.env
+.env.*
+*.env
+
+# API key and credential files
+*.key
+apikeys.json
